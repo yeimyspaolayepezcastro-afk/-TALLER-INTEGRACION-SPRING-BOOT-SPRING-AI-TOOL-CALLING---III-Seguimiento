@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente IA - Tool Calling</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="contenedor">
+    <section class="encabezado">
+        <span class="etiqueta">SPRING BOOT + SPRING AI</span>
+        <h1>Asistente inteligente</h1>
+        <p>Prueba la integración de inteligencia artificial y ejecución de herramientas.</p>
+    </section>
+
+    <section class="panel-chat">
+        <div id="conversacion" class="conversacion">
+            <div class="mensaje asistente">¡Hola! Pregúntame algo. Puedo realizar operaciones matemáticas y consultar la fecha y hora mediante herramientas.</div>
+        </div>
+        <form id="formulario" class="formulario">
+            <input id="pregunta" type="text" placeholder="Ej.: ¿Cuánto es 125 dividido entre 5?" autocomplete="off" required>
+            <button id="enviar" type="submit">Enviar</button>
+        </form>
+        <p class="nota">Ejemplos: “Suma 45 y 78”, “Multiplica 12 por 9” o “¿Qué fecha y hora es?”.</p>
+    </section>
+</main>
+<script src="/app.js"></script>
+</body>
+</html>
